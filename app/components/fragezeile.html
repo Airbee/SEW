@@ -1,0 +1,10 @@
+<div>
+    {{$ctrl.frage}}
+    <md-radio-group layout="row" layout-align="space-around" flex="100">
+        <md-radio-button value="1" class="md-primary" flex>{{$ctrl.radio1 || "Ganz richtig!"}}</md-radio-button>
+        <md-radio-button value="2" class="md-primary" flex>{{$ctrl.radio2 || "Finde ich auch"}}</md-radio-button>
+        <md-radio-button value="3" class="md-primary" flex>{{$ctrl.radio3 || "Kann man auch anders sehen..."}}</md-radio-button>
+        <md-radio-button value="4" class="md-primary" flex>{{$ctrl.radio4 || "Eher nicht"}}</md-radio-button>
+        <md-radio-button value="5" class="md-primary" flex>{{$ctrl.radio5 || "Ganz und gar nicht!"}}</md-radio-button>
+    </md-radio-group>
+</div>
